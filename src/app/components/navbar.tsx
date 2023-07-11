@@ -19,7 +19,7 @@ export default function Navbar() {
 
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Offcanvas dark navbar</a>
+                    <a className="navbar-brand" href="#">Manasi Arts &#10084;</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
