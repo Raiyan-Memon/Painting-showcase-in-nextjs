@@ -9,21 +9,34 @@ export default function Navbar() {
 
     const pathname = usePathname()
 
+    // const [closeCanvas, UpdateCloseCanvas] = useState('')
+
     useEffect(() => {
         require("bootstrap/dist/js/bootstrap.bundle.min.js");
-      }, []);
-    
+    }, []);
 
     return (
         <>
 
             <nav className="navbar navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Manasi Arts &#10084;</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div  className="offcanvas offcanvas-end text-bg-dark" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div className="container-fluid p-0">
+
+                    <div className="row w-100 align-items-center">
+                        <div className="col-md-4 col-4">
+                            logo
+                        </div>
+                        <div className="col-md-4 col-4 text-center">
+                            <a className="navbar-brand" href="#">Manasi Arts &#10084;</a>
+                        </div>
+                        <div className="col-md-4 col-4 text-end p-0">
+                            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div className="offcanvas offcanvas-end text-bg-dark" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
                             <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
