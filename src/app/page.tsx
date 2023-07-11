@@ -4,7 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h2>Manasi Webiste</h2>
+      <h2 className='text-light'>Manasi Webiste</h2>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
