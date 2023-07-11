@@ -43,7 +43,7 @@ export default function Home() {
           popup: 'animate__animated animate__fadeOutUp'
         }
       })
-    }, 4000);
+    }, 1000);
   }, [])
 
 
