@@ -193,7 +193,7 @@ export default function Home() {
               />
             </div>
             <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
-              <p hidden>unknown</p>
+              <p hidden>courage</p>
               <Image
                 onClick={(e) => SwalFire(e)}
                 src={Image9}
