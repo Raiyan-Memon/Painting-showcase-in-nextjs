@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import LogoExample from '../asset/logo-example.jpg'
+import Image from 'next/image'
 
 export default function Navbar() {
 
@@ -23,7 +25,14 @@ export default function Navbar() {
 
                     <div className="row w-100 align-items-center">
                         <div className="col-md-4 col-4">
-                            logo
+                            <Image
+                                src="https://pixabay.com/get/g56583a11818be0b39f466a3cd5b082fb432911a20000c37a3a17099bcbbbae4494811dfe96ac81522b4a48d84d4ae1cf8fb70662eb7be1cc4d9d5041ba3ad18a_640.jpg"
+                                alt="Picture of rose"
+                                width="30"
+                                height="30"
+                                className='rounded-circle'
+                            />
+
                         </div>
                         <div className="col-md-4 col-4 text-center">
                             <a className="navbar-brand" href="#">Manasi Arts &#10084;</a>
