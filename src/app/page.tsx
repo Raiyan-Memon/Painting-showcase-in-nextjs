@@ -73,13 +73,13 @@ export default function Home() {
     // console.log(listArray);
     // let inputValue = $(this).val();
     // console.log(inputValue);
-
+    const searchInLowerCase = search.toLowerCase();
     for (let i = 0; i < searchingClass.length; i++) {
       let p = searchingClass[i].getElementsByTagName('p')[0];
       let name = p.innerText.toLowerCase();
-      console.log(name.indexOf(search));
+      console.log(name.indexOf(searchInLowerCase));
 
-      if (name.indexOf(search) > -1) {
+      if (name.indexOf(searchInLowerCase) > -1) {
         // searchingClass[i].style.display = '';
         searchingClass[i].classList.add("no-className");
         searchingClass[i].classList.remove("d-none");
