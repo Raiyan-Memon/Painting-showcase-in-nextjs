@@ -105,13 +105,21 @@ body {
   width: 21% !important;
 }
 
+.offcanvas-toggler {
+  background: black;
+  box-shadow: white;
+  offset: 0;
+  border: 0;
+  border: 2px solid gray;
+  padding: -1px;
+  border-radius: 4px;
+}
+
 @media screen and (max-width: 480px) {
   .offcanvas {
     width: 60% !important;
   }
 }
-
-
 
 @media (prefers-color-scheme: dark) {
   html {
