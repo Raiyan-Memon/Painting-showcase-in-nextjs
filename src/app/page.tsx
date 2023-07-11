@@ -52,7 +52,7 @@ export default function Home() {
 
     Swal.fire({
       // title: 'Sweet!',
-      text: 'Modal with a custom image.',
+      // text: 'Modal with a custom image.',
       imageUrl: e.target.src,
       // imageWidth: 100,
       // imageHeight: 200,
