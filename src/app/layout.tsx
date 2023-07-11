@@ -6,7 +6,7 @@ import Navbar from './components/navbar';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Manasi Arts' ,
+  title: 'Manasi Arts',
   description: 'Manasi Arts Collection',
 }
 
@@ -21,7 +21,10 @@ export default function RootLayout({
       <body className={inter.className}>
 
         <Navbar />
-        {children}
+
+        <main>
+          {children}
+        </main>
 
       </body>
     </html>
