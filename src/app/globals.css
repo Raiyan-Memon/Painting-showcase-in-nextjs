@@ -105,6 +105,12 @@ body {
   width: 21% !important;
 }
 
+@media screen and (max-width: 480px) {
+  .offcanvas {
+    width: 50% !important;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
