@@ -45,7 +45,7 @@ export default function Navbar() {
                             <a className="navbar-brand" href="#">Manasi Arts &#10084;</a>
                         </div>
                         <div className="col-md-4 col-4 text-end p-0">
-                            <button className="offcanvas-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <button className="offcanvas-toggler px-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
 
