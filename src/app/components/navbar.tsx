@@ -1,4 +1,14 @@
+'use client'
+
+import 'bootstrap/dist/css/bootstrap.css';
+import { useState, useEffect } from 'react';
+
 export default function Navbar() {
+
+    useEffect(() => {
+        require("bootstrap/dist/js/bootstrap.bundle.min.js");
+      }, []);
+    
 
     return (
         <>
