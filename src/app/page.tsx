@@ -20,91 +20,91 @@ export default function Home() {
       {/* <h2 className='text-light'>Manasi Webiste</h2> */}
 
       <div className="row">
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image1}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image2}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image3}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image4}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image5}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image6}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image7}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image8}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image9}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image10}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image11}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image12}
             alt="Picture of rose"
             className='image-size'
           />
         </div>
-        <div className="col-md-3 p-4">
+        <div className="col-md-3 p-3 col-6">
           <Image
             src={Image13}
             alt="Picture of rose"
