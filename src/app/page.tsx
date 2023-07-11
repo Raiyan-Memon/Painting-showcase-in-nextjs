@@ -35,7 +35,7 @@ export default function Home() {
     setTimeout(() => {
       Swal.fire({
         confirmButtonText: 'Thank You!',
-        title: 'Welcome To My Collection',
+        title: 'Welcome To My Collection &#128516;',
         showClass: {
           popup: 'animate__animated animate__fadeInDown'
         },
@@ -120,7 +120,7 @@ export default function Home() {
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}>
           <Masonry gutter="5px" columnsCount={4}>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>Pokemon</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -129,7 +129,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>icecream</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -138,7 +138,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>bt21</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -147,7 +147,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>shinchan</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -156,7 +156,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>minion</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -165,7 +165,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>spong bob</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -174,7 +174,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>rabit</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -183,7 +183,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>mr bean</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -192,7 +192,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>unknown</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -201,7 +201,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>oggy</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -210,7 +210,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>moon</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -219,7 +219,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>children</p>
               <Image
                 onClick={(e) => SwalFire(e)}
@@ -228,7 +228,7 @@ export default function Home() {
                 className='image-size'
               />
             </div>
-            <div className="col-md-3 p-3 w-100 col-6 searching">
+            <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
               <p hidden>children</p>
               <Image
                 onClick={(e) => SwalFire(e)}
