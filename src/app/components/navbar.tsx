@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className="container-fluid p-0">
 
                     <div className="row w-100 align-items-center">
-                        <div className="col-md-4 col-4">
+                        <div className="col-md-4 col-4 text-center">
                             {/* <Image
                                 src="https://pixabay.com/get/g56583a11818be0b39f466a3cd5b082fb432911a20000c37a3a17099bcbbbae4494811dfe96ac81522b4a48d84d4ae1cf8fb70662eb7be1cc4d9d5041ba3ad18a_640.jpg"
                                 alt="Picture of rose"
@@ -37,7 +37,7 @@ export default function Navbar() {
                                 alt="Picture of rose"
                                 width="30"
                                 height="30"
-                                className='rounded-circle'
+                                className='ml-1 rounded-circle'
                             />
 
                         </div>
