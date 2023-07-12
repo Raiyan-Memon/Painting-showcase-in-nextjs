@@ -110,7 +110,7 @@ body {
   border: 0;
 }
 
-.image-size{
+.image-size {
   width: 100%;
   height: 100%;
 }
@@ -118,6 +118,21 @@ body {
 @media screen and (max-width: 480px) {
   .offcanvas {
     width: 60% !important;
+  }
+  .navbar {
+    display: none;
+  }
+  .mobile-bottom-margin {
+    margin-bottom: 60px !important;
+  }
+  .mobile-navbar {
+    border-radius: 6px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mobile-navbar {
+    display: none;
   }
 }
 

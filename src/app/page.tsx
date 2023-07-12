@@ -116,7 +116,7 @@ export default function Home() {
       </div>
 
 
-      <div className="row">
+      <div className="row mobile-bottom-margin">
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 2, 750: 2, 900: 4 }}>
           <Masonry gutter="5px" columnsCount={4}>
