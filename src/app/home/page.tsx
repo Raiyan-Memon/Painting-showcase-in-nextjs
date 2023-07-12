@@ -1,28 +1,26 @@
 'use client'
 
-import LogoExample from '../app/asset/logo-example.jpg';
+import LogoExample from '../asset/logo-example.jpg';
 import Swal from 'sweetalert2'
-import Image1 from '../app/asset/1.jpg'
-import Image2 from '../app/asset/2.jpg'
-import Image3 from '../app/asset/3.jpg'
-import Image4 from '../app/asset/4.jpg'
-import Image5 from '../app/asset/5.jpg'
-import Image6 from '../app/asset/6.jpg'
-import Image7 from '../app/asset/7.jpg'
-import Image8 from '../app/asset/8.jpg'
-import Image9 from '../app/asset/9.jpg'
-import Image10 from '../app/asset/10.jpg'
-import Image11 from '../app/asset/11.jpg'
-import Image12 from '../app/asset/12.jpg'
-import Image13 from '../app/asset/13.jpg'
+import Image1 from '../asset/1.jpg'
+import Image2 from '../asset/2.jpg'
+import Image3 from '../asset/3.jpg'
+import Image4 from '../asset/4.jpg'
+import Image5 from '../asset/5.jpg'
+import Image6 from '../asset/6.jpg'
+import Image7 from '../asset/7.jpg'
+import Image8 from '../asset/8.jpg'
+import Image9 from '../asset/9.jpg'
+import Image10 from '../asset/10.jpg'
+import Image11 from '../asset/11.jpg'
+import Image12 from '../asset/12.jpg'
+import Image13 from '../asset/13.jpg'
 import Image from 'next/image'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import 'animate.css';
 import { useEffect, useState } from 'react';
-import { redirect } from 'next/navigation';
 
 export default function Home() {
-  redirect('/home');
 
   // Swal.fire({
   //   title: 'Sweet!',
