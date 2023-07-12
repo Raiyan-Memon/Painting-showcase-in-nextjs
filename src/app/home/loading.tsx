@@ -1,4 +1,4 @@
-import '../app/homePageLoading.css';
+import '../homePageLoading.css';
 
 export default function LoadingPage() {
     return (
