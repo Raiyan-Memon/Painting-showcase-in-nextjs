@@ -1,7 +1,15 @@
-export default function LoadingPage(){
+import '../app/homePageLoading.css';
+
+export default function LoadingPage() {
     return (
         <>
-        <h2>Loading...</h2>
+            <div className="loading-screen">
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+            </div>
         </>
     )
 }

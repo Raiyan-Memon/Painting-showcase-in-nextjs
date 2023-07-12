@@ -67,12 +67,6 @@ export default function Home() {
     const searchingClass = document.getElementsByClassName('searching');
     console.log(searchingClass);
 
-
-
-    // let listArray = document.getElementsByClassName('owner-list')
-    // console.log(listArray);
-    // let inputValue = $(this).val();
-    // console.log(inputValue);
     const searchInLowerCase = search.toLowerCase();
     for (let i = 0; i < searchingClass.length; i++) {
       let p = searchingClass[i].getElementsByTagName('p')[0];
