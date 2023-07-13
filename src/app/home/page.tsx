@@ -131,7 +131,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image4}
-                  alt="Picture of rose"
+                  alt="Shinchan"
                   className='image-size'
                 />
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image5}
-                  alt="Picture of rose"
+                  alt="Minion"
                   className='image-size'
                 />
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image6}
-                  alt="Picture of rose"
+                  alt="Spong Bob"
                   className='image-size'
                 />
               </div>
@@ -158,7 +158,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image7}
-                  alt="Picture of rose"
+                  alt="Rabit"
                   className='image-size'
                 />
               </div>
@@ -167,7 +167,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image8}
-                  alt="Picture of rose"
+                  alt="Mr. Bean"
                   className='image-size'
                 />
               </div>
@@ -176,7 +176,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image9}
-                  alt="Picture of rose"
+                  alt="Courage"
                   className='image-size'
                 />
               </div>
@@ -185,16 +185,16 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image10}
-                  alt="Picture of rose"
+                  alt="Oggy"
                   className='image-size'
                 />
               </div>
               <div className="col-md-3 p-3 w-100 col-6 searching cursor-pointer">
-                <p hidden>moon</p>
+                <p hidden>moon night</p>
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image11}
-                  alt="Picture of rose"
+                  alt="Moon"
                   className='image-size'
                 />
               </div>
@@ -203,7 +203,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image12}
-                  alt="Picture of rose"
+                  alt="Children"
                   className='image-size'
                 />
               </div>
@@ -212,7 +212,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image13}
-                  alt="Picture of rose"
+                  alt="Children"
                   className='image-size'
                 />
               </div>
