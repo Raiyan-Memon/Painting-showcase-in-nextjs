@@ -1,17 +1,19 @@
 .cards-custom {
-  background: #fff;
+  /* background: #fff; */
   overflow: hidden;
+  border-radius: 25px;
+
 }
 
 .card_description.loading {
-  height: 25rem;
+  height: 20rem;
   /* margin: 1rem; */
-  /* border-radius: 3px; */
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 480px) {
   .card_description.loading {
-    height: 13rem;
+    height: 10rem;
   }
 }
 
