@@ -27,7 +27,7 @@ export default function Page() {
 
                         <div className="row mt-3  justify-content-center">
                             <div className="col-md-1 col-2">
-                                <a title='Instagram' href="">
+                                <a title='Instagram' href="https://www.instagram.com/manasi._.dk/">
                                     <Image
                                         src={Instagram}
                                         alt="Ice-cream"
@@ -36,7 +36,7 @@ export default function Page() {
                                 </a>
                             </div>
                             <div className="col-md-1 col-2">
-                                <a title='LinkedIn' href="">
+                                <a title='LinkedIn' href="https://www.linkedin.com/in/manasi-dk/">
                                     <Image
                                         src={Linkedin}
                                         alt="Ice-cream"
