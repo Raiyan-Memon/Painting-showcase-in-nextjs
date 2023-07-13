@@ -66,9 +66,9 @@ export default function Navbar() {
                                 <li className="nav-item" data-bs-dismiss="offcanvas">
                                     <Link className={'nav-link' + (pathname == "/about" ? ' active' : '')} aria-current="page" href="/about"><svg className="mx-2" fill="white" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M480-481q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160-160v-94q0-38 19-65t49-41q67-30 128.5-45T480-420q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800-292 800-254v94H160Zm60-60h520v-34q0-16-9.5-30.5T707-306q-64-31-117-42.5T480-360q-57 0-111 11.5T252-306q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570-631q0-39-25.5-64.5T480-721q-39 0-64.5 25.5T390-631q0 39 25.5 64.5T480-541Zm0-90Zm0 411Z" /></svg> About</Link>
                                 </li>
-                                <li className="nav-item" data-bs-dismiss="offcanvas">
+                                {/* <li className="nav-item" data-bs-dismiss="offcanvas">
                                     <Link className={'nav-link' + (pathname == "/contact" ? ' active' : '')} aria-current="page" href="/contact"><svg className="mx-2" fill='white' xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M795-120q-122 0-242.5-60T336-336q-96-96-156-216.5T120-795q0-19.286 12.857-32.143T165-840h140q13.611 0 24.306 9.5Q340-821 343-805l27 126q2 14-.5 25.5T359-634L259-533q56 93 125.5 162T542-254l95-98q10-11 23-15.5t26-1.5l119 26q15.312 3.375 25.156 15.188Q840-316 840-300v135q0 19.286-12.857 32.143T795-120ZM229-588l81-82-23-110H180q0 39 12 85.5T229-588Zm369 363q41 19 89 31t93 14v-107l-103-21-79 83ZM229-588Zm369 363Z" /></svg> Contact</Link>
-                                </li>
+                                </li> */}
                                 {/* <li className="nav-item">
                                     <a className={'nav-link' + (pathname == "/about" ? ' active' : '')} href="#">Link</a>
                                 </li> */}
