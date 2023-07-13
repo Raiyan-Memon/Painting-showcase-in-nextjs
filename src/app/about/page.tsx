@@ -22,7 +22,7 @@ export default function Page() {
                         />
                     </div>
                     <div className="col-md-12">
-                        <h3 className='text-center mt-4'>I am <span className='text-primary'>Manasi</span></h3>
+                        <h3 className='text-center mt-4'>I am <span>Manasi</span></h3>
                         <h6 className='mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit est esse nostrum nobis, animi deleniti sunt veritatis commodi ibus!</h6>
 
                         <div className="row mt-3  justify-content-center">
