@@ -35,6 +35,7 @@ export default function Home() {
       Swal.fire({
         confirmButtonText: 'Thank You!',
         title: 'Welcome To My Collection &#128516;',
+        html: '<p>Click on any pic to zoom</p>',
         showClass: {
           popup: 'animate__animated animate__fadeInDown'
         },
