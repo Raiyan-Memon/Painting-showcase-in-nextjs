@@ -1,4 +1,4 @@
-'use client';
+
 
 import Image1 from '../asset/edited.jpg';
 import Image from 'next/image'
@@ -7,6 +7,12 @@ import Linkedin from '../asset/logo/linkedin.png'
 import Pinterest from '../asset/logo/pinterest.png';
 import Mail from '../asset/logo/mail.png'
 import '../about/about.css';
+import { Metadata } from 'next'
+
+
+export const metadata: Metadata = {
+    title: 'Manasi Arts | About',
+  }
 
 export default function Page() {
 

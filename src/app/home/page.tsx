@@ -61,13 +61,9 @@ export default function Home() {
 
 
   function SwalFire(e: any) {
-    // console.log(e.target.src);
     Swal.fire({
-      // title: 'Sweet!',
       text: e.target.alt,
       imageUrl: e.target.src,
-      // imageWidth: 100,
-      // imageHeight: 200,
       imageAlt: 'No image found',
     })
   }
@@ -101,12 +97,7 @@ export default function Home() {
               <span className="input-group-text" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"><path d="M796-121 533-384q-30 26-69.959 40.5T378-329q-108.162 0-183.081-75Q120-479 120-585t75-181q75-75 181.5-75t181 75Q632-691 632-584.85 632-542 618-502q-14 40-42 75l264 262-44 44ZM377-389q81.25 0 138.125-57.5T572-585q0-81-56.875-138.5T377-781q-82.083 0-139.542 57.5Q180-666 180-585t57.458 138.5Q294.917-389 377-389Z" /></svg></span>
               <input onChange={(e) => Inputsearch(e.target.value)} type="text" className="form-control form-control-sm" placeholder="Search Drawings" aria-label="Username" aria-describedby="basic-addon1" />
             </div>
-
-            {/* <input type="text" className='form-control form-control-sm' name="" id="" /> */}
           </div>
-          {/* <div className="col-md-2 col-2">
-          <button className='btn btn-sm btn-primary'>Search</button>
-        </div> */}
         </div>
         <Loading />
         <div className="row mobile-bottom-margin d-none" id='main-section'>
