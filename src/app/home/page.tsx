@@ -325,7 +325,7 @@ export default function Home() {
                 <Image
                   onClick={(e) => SwalFire(e)}
                   src={Image25}
-                  alt="BTS"s
+                  alt="BTS"
                   className='image-size'
                 />
               </div>
