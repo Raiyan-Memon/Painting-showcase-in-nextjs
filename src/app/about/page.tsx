@@ -8,11 +8,12 @@ import Pinterest from '../asset/logo/pinterest.png';
 import Mail from '../asset/logo/mail.png'
 import '../about/about.css';
 import { Metadata } from 'next'
+import Swiper from '../components/swiper';
 
 
 export const metadata: Metadata = {
     title: 'Manasi Arts | About',
-  }
+}
 
 export default function Page() {
 
@@ -20,13 +21,16 @@ export default function Page() {
         <>
             <div className="container mt-5">
                 <div className="row align-items-center text-center justify-content-center">
-                    <div className="col-md-2 col-6 text-center">
+                    <Swiper />
+                    {/* <div className="col-md-2 col-6 text-center">
+
+
                         <Image
                             src={Image1}
                             alt="Ice-cream"
                             className='image-size border border-white p-3 rounded-circle'
                         />
-                    </div>
+                    </div> */}
                     <div className="col-md-12">
                         <h3 className='text-center mt-4'>I am <span>Manasi</span></h3>
                         <h6 className='mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit est esse nostrum nobis, animi deleniti sunt veritatis commodi ibus!</h6>

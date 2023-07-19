@@ -21,6 +21,7 @@
     "react-dom": "18.2.0",
     "react-responsive-masonry": "^2.1.7",
     "sweetalert2": "^11.7.12",
+    "swiper": "^10.0.4",
     "typescript": "5.1.6"
   },
   "devDependencies": {
