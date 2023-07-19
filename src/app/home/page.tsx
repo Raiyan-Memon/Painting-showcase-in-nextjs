@@ -15,6 +15,19 @@ import Image10 from '../asset/10.jpg'
 import Image11 from '../asset/11.jpg'
 import Image12 from '../asset/12.jpg'
 import Image13 from '../asset/13.jpg'
+import Image14 from '../asset/14.jpg'
+import Image15 from '../asset/15.jpg'
+import Image16 from '../asset/16.jpg'
+import Image17 from '../asset/17.jpg'
+import Image18 from '../asset/18.jpg'
+import Image19 from '../asset/19.jpg'
+import Image20 from '../asset/20.jpg'
+import Image21 from '../asset/21.jpg'
+import Image22 from '../asset/22.jpg'
+import Image23 from '../asset/23.jpg'
+import Image24 from '../asset/24.jpg'
+import Image25 from '../asset/25.jpg'
+import Image26 from '../asset/26.jpg'
 import Image from 'next/image'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import 'animate.css';
@@ -217,121 +230,111 @@ export default function Home() {
                   className='image-size'
                 />
               </div>
-
               <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>Pokemon</p>
+                <p hidden>Peacock</p>
                 <Image
                   onClick={(e) => SwalFire(e)}
-                  src={Image1}
-                  alt="Pokemon"
+                  src={Image14}
+                  alt="Peacock"
                   className='image-size'
                 />
               </div>
               <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>icecream</p>
+                <p hidden>night road</p>
                 <Image
                   onClick={(e) => SwalFire(e)}
-                  src={Image2}
-                  alt="Ice-cream"
+                  src={Image15}
+                  alt="Night Road"
                   className='image-size'
                 />
               </div>
               <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>bt21</p>
+                <p hidden>cute pig</p>
                 <Image
                   onClick={(e) => SwalFire(e)}
-                  src={Image3}
-                  alt="BT21"
+                  src={Image16}
+                  alt="Piggies"
                   className='image-size'
                 />
               </div>
               <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>shinchan</p>
+                <p hidden>mouse</p>
                 <Image
                   onClick={(e) => SwalFire(e)}
-                  src={Image4}
+                  src={Image18}
+                  alt="Mouse"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>giraffe panda frog</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image19}
+                  alt="Giraffe Panda Frog"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>Candy</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image20}
+                  alt="Candies"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>mickey mouse</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image21}
+                  alt="Mickey Mouse"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>swag chicken</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image22}
+                  alt="Swaggy Chicken"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>giraffe</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image23}
+                  alt="Giraffes"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>hen swimming</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image24}
+                  alt="Cute Hen Swimming"
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>BTS</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image25}
+                  alt="BTS"s
+                  className='image-size'
+                />
+              </div>
+              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
+                <p hidden>Shinchan</p>
+                <Image
+                  onClick={(e) => SwalFire(e)}
+                  src={Image26}
                   alt="Shinchan"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>minion</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image5}
-                  alt="Minion"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>spong bob</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image6}
-                  alt="Spong Bob"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>rabit</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image7}
-                  alt="Rabit"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>mr bean</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image8}
-                  alt="Mr. Bean"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>courage</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image9}
-                  alt="Courage"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>oggy</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image10}
-                  alt="Oggy"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>moon night</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image11}
-                  alt="Moon"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>children</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image12}
-                  alt="Children"
-                  className='image-size'
-                />
-              </div>
-              <div className="col-md-3 p-1 w-100 col-6 searching cursor-pointer">
-                <p hidden>children</p>
-                <Image
-                  onClick={(e) => SwalFire(e)}
-                  src={Image13}
-                  alt="Children"
                   className='image-size'
                 />
               </div>
