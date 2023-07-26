@@ -33,7 +33,7 @@ export default function Page() {
                     </div> */}
                     <div className="col-md-12">
                         <h3 className='text-center mt-4'>Hey! Myself <span>Manasi</span></h3>
-                        <h6 className='mt-2'>Drawing things makes them seem more real and makes me feel more alive.</h6>
+                        <h6 className='mt-2'>Drawing things makes them seem more real and makes me feel more alive ✨.</h6>
 
                         <div className="row mt-3  justify-content-center">
                         <div className="col-md-1 col-2">
