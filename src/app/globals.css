@@ -95,6 +95,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+body{
+  background-color: black !important;
+}
+
 .active {
   color: #fff;
   background-color: #0d6efd;
