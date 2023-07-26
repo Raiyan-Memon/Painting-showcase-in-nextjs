@@ -46,7 +46,7 @@ export default function Page() {
                                 </a>
                             </div>
                             <div className="col-md-1 col-2">
-                                <a title='My Email : manasidkarts@gmail.com' href="mailto:manasidk1388@gmail.com"><Image
+                                <a title='My Email : manasidkarts@gmail.com' href="mailto:manasidkarts@gmail.com"><Image
                                     src={Mail}
                                     alt="Ice-cream"
                                     className='image-size border border-white p-2 rounded-circle'
